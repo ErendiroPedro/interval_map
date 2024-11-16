@@ -20,6 +20,7 @@ The interval map maintains a mapping of intervals to values, where each interval
 
 ## Project Structure
 
+'''
 interval_map/
 ├── CMakeLists.txt              # CMake build configuration
 ├── README.md                   # Project description
@@ -33,6 +34,7 @@ interval_map/
 └── build/                      # Build output directory
     └── bin/                    # Executable files
         └── interval_map        # The generated executable
+'''
 
 ## Requirements
 
