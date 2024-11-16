@@ -20,22 +20,21 @@ The interval map maintains a mapping of intervals to values, where each interval
 
 ## Project Structure
 
-'''
+```
 interval_map/
-├── CMakeLists.txt              # CMake build configuration
-├── README.md                   # Project description
-├── include/                    # Header files
-│   ├── interval_map.h          # Template class declaration
-│   ├── interval_map_impl.h     # Implementation details for the template class
-│   └── interval_map_tester.h   # Test suite header
-├── src/                        # Source files
-│   ├── main.cpp                # Main program (example usage)
+├── CMakeLists.txt          # CMake build configuration
+├── README.md               # Project description
+├── include/               # Header files
+│   ├── interval_map.h      # Template class declaration
+│   ├── interval_map_impl.h # Implementation details for the template class
+│   └── interval_map_tester.h # Test suite header
+├── src/                   # Source files
+│   ├── main.cpp           # Main program (example usage)
 │   └── interval_map_tester.cpp # Test suite implementation
-└── build/                      # Build output directory
-    └── bin/                    # Executable files
-        └── interval_map        # The generated executable
-'''
-
+└── build/                # Build output directory
+    └── bin/              # Executable files
+        └── interval_map   # The generated executable
+```
 ## Requirements
 
 - C++17 or later
