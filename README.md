@@ -61,7 +61,7 @@ make
 
 4. Run the program:
 ```bash
-./bin/interval_map_program
+./bin/interval_map
 ```
 
 ## Usage Example
@@ -110,11 +110,6 @@ The project includes a comprehensive test suite that verifies:
    - Random interval assignments
    - Large number of operations
    - Memory efficiency validation
-
-Run the tests with:
-```bash
-./bin/interval_map_program --run-tests
-```
 
 ## Implementation Details
 
